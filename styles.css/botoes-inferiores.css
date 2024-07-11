@@ -1,0 +1,54 @@
+.rodape__mais {
+    position: fixed;
+    bottom: 9rem;
+    right: 2.75rem;
+    visibility: hidden;
+}
+.rodape__mais__botao {
+    position: fixed;
+    width: 3.5rem;
+    height: 3.5rem;
+    background: var(--cor-azul);
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(72, 148, 255, 0.5);
+    z-index: 2;
+}
+.rodape__mais__botao.mais:active {
+    background-color: var(--cor-cinza-escuro);
+}
+.rodape__mais__botao.mais {
+    bottom: 5.5rem;
+    right: 1.5rem;
+    background-image: url(../img/maisicone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.rodape__mais__botao.local {
+    bottom: 10rem;
+    right: 1.5rem;
+    background-image: url(../img/Camerafab.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.rodape__mais__botao.remoto {
+    bottom: 14.5rem;
+    right: 1.5rem;
+    background-image: url(../img/pinfabiconee.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nova__consulta {
+    position: fixed;
+    background-color: var(--cor-branca);
+    color: var(--cor-cinza-escuro);
+    border-radius: 1rem;
+    padding: 0.4rem;
+}
+.nova__consulta.local {
+    bottom: 15.25rem;
+    right: 6rem;
+}
+.nova__consulta.remoto {
+    bottom: 10.75rem;
+    right: 6rem;
+}

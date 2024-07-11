@@ -1,0 +1,24 @@
+.cabecalho{
+    display: flex;
+    gap: 1rem;
+    padding: 3.5rem 1.5rem 0 1.5rem;
+}
+.cabecalho__foto {
+    width: 3.5625rem;
+    border-radius: 50%;
+}
+.cabecalho__descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cabecalho__descricao-titulo {
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: var(--cor-cinza-escuro);
+}
+.cabecalho__descricao-texto {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--cor-cinza-claro);
+}

@@ -8,28 +8,26 @@
     <title>Agendamento Médico</title>
 </head>
 <body>
-    <header class="cabecalho">
-        <img src="img/foto-perfil.svg" alt="Foto de perfil">
-        <div class="cabecalho__descricao">
-            <h1 class="cabecalho__descricao-titulo">Olá, Sônia</h1>
-            <p class="cabecalho__descricao-texto">Mais 4 consultas hoje</p>
-        </div>
-    </header>
     <main>
+        <section class="cabecalho">
+            <img class="cabecalho__foto" src="img/foto-perfil.svg" alt="Foto de perfil">
+            <div class="cabecalho__descricao">
+                <h1 class="cabecalho__descricao-titulo">Olá, Sônia</h1>
+                <p class="cabecalho__descricao-texto">Mais 4 consultas hoje</p>
+            </div>
+        </section>
         <section class="consultas">
             <div class="lista">
                 <h2 class="lista__titulo">Hoje</h2>
                 <ul class="lista__itens">
                     <li class="lista__itens__item">
                         <div class="item__topo">
-                            <img src="img/paciente-1.svg" alt="Foto do paciente 1">
+                            <img class="item__topo__imagem" src="img/paciente-1.svg" alt="Foto do paciente 1">
                             <div class="item__topo__descricao">
                                 <h3 class="item__topo__titulo">Luciana Dias</h3>
                                 <p class="item__topo__texto"><img src="img/Camera.svg" alt="Consulta remota">Consulta remota</p>
                             </div>
-                            <div class="item__topo__chat">
-                                <img src="img/chat1.svg" alt="Conversar com paciente 1">
-                            </div>
+                            <button class="item__topo__chat"></button>
                         </div>
                         <div class="item__detalhes">
                             <p class="item__detalhes__texto">14:00 - 15:00 (1 hora)</p>
@@ -41,14 +39,12 @@
                     </li>
                     <li class="lista__itens__item">
                         <div class="item__topo">
-                            <img src="img/paciente-2.svg" alt="Foto do paciente 2">
+                            <img class="item__topo__imagem" src="img/paciente-2.svg" alt="Foto do paciente 2">
                             <div class="item__topo__descricao">
                                 <h3 class="item__topo__titulo">Larissa Santana</h3>
                                 <p class="item__topo__texto"><img src="img/pin.svg" alt="Consulta remota">Consulta no local</p>
                             </div>
-                            <div class="item__topo__chat">
-                                <img src="img/chat1.svg" alt="Conversar com paciente 2">
-                            </div>
+                            <button class="item__topo__chat"></button>
                         </div>
                         <div class="item__detalhes">
                             <p class="item__detalhes__texto">16:00 - 17:00 (1 hora)</p>
@@ -59,14 +55,12 @@
                     </li>                    
                     <li class="lista__itens__item">
                         <div class="item__topo">
-                            <img src="img/paciente-3.svg" alt="Foto do paciente 3">
+                            <img class="item__topo__imagem" src="img/paciente-3.svg" alt="Foto do paciente 3">
                             <div class="item__topo__descricao">
                                 <h3 class="item__topo__titulo">Marcos Correia</h3>
                                 <p class="item__topo__texto"><img src="img/Camera.svg" alt="Consulta remota">Consulta remota</p>
                             </div>
-                            <div class="item__topo__chat">
-                                <img src="img/chat1.svg" alt="Conversar com paciente 3">
-                            </div>
+                            <button class="item__topo__chat"></button>
                         </div>
                         <div class="item__detalhes">
                             <p class="item__detalhes__texto">17:20 - 18:00 (40 minutos)</p>
@@ -83,14 +77,12 @@
                 <ul class="lista__itens">
                     <li class="lista__itens__item">
                         <div class="item__topo">
-                            <img src="img/paciente-4.svg" alt="Foto do paciente 4">
+                            <img class="item__topo__imagem" src="img/paciente-4.svg" alt="Foto do paciente 4">
                             <div class="item__topo__descricao">
                                 <h3 class="item__topo__titulo">Clara Lemos</h3>
                                 <p class="item__topo__texto"><img src="img/pin.svg" alt="Consulta remota">Consulta no local</p>
                             </div>
-                            <div class="item__topo__chat">
-                                <img src="img/chat1.svg" alt="Conversar com paciente 4">
-                            </div>
+                            <button class="item__topo__chat"></button>
                         </div>
                         <div class="item__detalhes">
                             <p class="item__detalhes__texto">18:00 - 19:00 (1 hora)</p>
@@ -101,14 +93,12 @@
                     </li>
                     <li class="lista__itens__item">
                         <div class="item__topo">
-                            <img src="img/paciente-1.svg" alt="Foto do paciente 1">
+                            <img class="item__topo__imagem" src="img/paciente-1.svg" alt="Foto do paciente 1">
                             <div class="item__topo__descricao">
                                 <h3 class="item__topo__titulo">Luciana Dias</h3>
                                 <p class="item__topo__texto"><img src="img/Camera.svg" alt="Consulta remota">Consulta remota</p>
                             </div>
-                            <div class="item__topo__chat">
-                                <img src="img/chat1.svg" alt="Conversar com paciente 1">
-                            </div>
+                            <button class="item__topo__chat"></button>
                         </div>
                         <div class="item__detalhes">
                             <p class="item__detalhes__texto">14:00 - 15:00 (1 hora)</p>
@@ -120,14 +110,12 @@
                     </li>                    
                     <li class="lista__itens__item">
                         <div class="item__topo">
-                            <img src="img/paciente-3.svg" alt="Foto do paciente 3">
+                            <img class="item__topo__imagem" src="img/paciente-3.svg" alt="Foto do paciente 3">
                             <div class="item__topo__descricao">
                                 <h3 class="item__topo__titulo">Marcos Correia</h3>
                                 <p class="item__topo__texto"><img src="img/Camera.svg" alt="Consulta remota">Consulta remota</p>
                             </div>
-                            <div class="item__topo__chat">
-                                <img src="img/chat1.svg" alt="Conversar com paciente 3">
-                            </div>
+                            <button class="item__topo__chat"></button>
                         </div>
                         <div class="item__detalhes">
                             <p class="item__detalhes__texto">17:20 - 18:00 (40 minutos)</p>
@@ -139,14 +127,12 @@
                     </li>
                     <li class="lista__itens__item">
                         <div class="item__topo">
-                            <img src="img/paciente-2.svg" alt="Foto do paciente 2">
+                            <img class="item__topo__imagem" src="img/paciente-2.svg" alt="Foto do paciente 2">
                             <div class="item__topo__descricao">
                                 <h3 class="item__topo__titulo">Larissa Santana</h3>
                                 <p class="item__topo__texto"><img src="img/pin.svg" alt="Consulta remota">Consulta no local</p>
                             </div>
-                            <div class="item__topo__chat">
-                                <img src="img/chat1.svg" alt="Conversar com paciente 2">
-                            </div>
+                            <button class="item__topo__chat"></button>
                         </div>
                         <div class="item__detalhes">
                             <p class="item__detalhes__texto">16:00 - 17:00 (1 hora)</p>
@@ -162,14 +148,12 @@
                 <ul class="lista__itens">
                     <li class="lista__itens__item">
                         <div class="item__topo">
-                            <img src="img/paciente-4.svg" alt="Foto do paciente 4">
+                            <img class="item__topo__imagem" src="img/paciente-4.svg" alt="Foto do paciente 4">
                             <div class="item__topo__descricao">
                                 <h3 class="item__topo__titulo">Clara Lemos</h3>
                                 <p class="item__topo__texto"><img src="img/pin.svg" alt="Consulta remota">Consulta no local</p>
                             </div>
-                            <div class="item__topo__chat">
-                                <img src="img/chat1.svg" alt="Conversar com paciente 4">
-                            </div>
+                            <button class="item__topo__chat"></button>
                         </div>
                         <div class="item__detalhes">
                             <p class="item__detalhes__texto">18:00 - 19:00 (1 hora)</p>
@@ -180,17 +164,15 @@
                     </li>
                     <li class="lista__itens__item">
                         <div class="item__topo">
-                            <img src="img/paciente-1.svg" alt="Foto do paciente 1">
+                            <img class="item__topo__imagem" src="img/paciente-1.svg" alt="Foto do paciente 1">
                             <div class="item__topo__descricao">
                                 <h3 class="item__topo__titulo">Luciana Dias</h3>
                                 <p class="item__topo__texto"><img src="img/Camera.svg" alt="Consulta remota">Consulta remota</p>
                             </div>
-                            <div class="item__topo__chat">
-                                <img src="img/chat1.svg" alt="Conversar com paciente 1">
-                            </div>
+                            <button class="item__topo__chat"></button>
                         </div>
                         <div class="item__detalhes">
-                            <p class="item__detalhes__texto">16:00 - 17:00 (1 hora)</p>
+                            <p class="item__detalhes__texto">14:00 - 15:00 (1 hora)</p>
                             <div class="item__detalhes__botoes">
                                 <button class="item_detalhes__botao botao-video">Ligar por vídeo</button>
                                 <button class="item_detalhes__botao botao-audio">Ligar por áudio</button>
@@ -199,17 +181,15 @@
                     </li>                    
                     <li class="lista__itens__item">
                         <div class="item__topo">
-                            <img src="img/paciente-3.svg" alt="Foto do paciente 3">
+                            <img class="item__topo__imagem" src="img/paciente-3.svg" alt="Foto do paciente 3">
                             <div class="item__topo__descricao">
                                 <h3 class="item__topo__titulo">Marcos Correia</h3>
                                 <p class="item__topo__texto"><img src="img/Camera.svg" alt="Consulta remota">Consulta remota</p>
                             </div>
-                            <div class="item__topo__chat">
-                                <img src="img/chat1.svg" alt="Conversar com paciente 3">
-                            </div>
+                            <button class="item__topo__chat"></button>
                         </div>
                         <div class="item__detalhes">
-                            <p class="item__detalhes__texto">17:20 - 18:00 (1 hora)</p>
+                            <p class="item__detalhes__texto">17:20 - 18:00 (40 minutos)</p>
                             <div class="item__detalhes__botoes">
                                 <button class="item_detalhes__botao botao-video">Ligar por vídeo</button>
                                 <button class="item_detalhes__botao botao-audio">Ligar por áudio</button>
@@ -218,17 +198,15 @@
                     </li>
                     <li class="lista__itens__item">
                         <div class="item__topo">
-                            <img src="img/paciente-2.svg" alt="Foto do paciente 2">
+                            <img class="item__topo__imagem" src="img/paciente-2.svg" alt="Foto do paciente 2">
                             <div class="item__topo__descricao">
                                 <h3 class="item__topo__titulo">Larissa Santana</h3>
                                 <p class="item__topo__texto"><img src="img/pin.svg" alt="Consulta remota">Consulta no local</p>
                             </div>
-                            <div class="item__topo__chat">
-                                <img src="img/chat1.svg" alt="Conversar com paciente 2">
-                            </div>
+                            <button class="item__topo__chat"></button>
                         </div>
                         <div class="item__detalhes">
-                            <p class="item__detalhes__texto">17:20 - 18:00 (1 hora)</p>
+                            <p class="item__detalhes__texto">16:00 - 17:00 (1 hora)</p>
                             <div class="item__detalhes__botoes">
                                 <button class="item_detalhes__botao botao-endereco">Ver endereço</button>
                             </div>
@@ -238,6 +216,26 @@
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="rodape">
+            <input class="rodape__mais" id="mais" type="checkbox">
+            <label for="mais">
+                <span class="rodape__mais__botao mais"></span>
+            </label>
+            <div class="rodape__links">
+                <a class="rodape__link link-azul" href="#"><img src="./img/Calendarioicone.png" alt="Calendário de consultas">Consultas</a>
+                <a class="rodape__link link-cinza" href="#"><img class="inverse" src="./img/clientes icone.png" alt="Clientes">Clientes</a>
+                <a class="rodape__link link-cinza" href="#"><img class="inverse" src="./img/relatorios icone.png" alt="Relatórios">Relatórios</a>
+                <a class="rodape__link link-cinza" href="#"><img class="inverse" src="./img/menu icone.png" alt="Menu">Menu</a>
+            </div>
+            <div class="tela__escurecida">
+                    <span class="nova__consulta local">Nova consulta na casa do paciente</span>
+                    <span class="rodape__mais__botao local"></span>
+                    <span class="nova__consulta remoto"> Nova consulta por vídeo</span>
+                    <span class="rodape__mais__botao remoto"></span>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
