@@ -22,3 +22,11 @@
     font-weight: 400;
     color: var(--cor-cinza-claro);
 }
+
+/* Media queries */
+@media screen and (min-width: 1500px){
+    .cabecalho__foto {
+    width: 7rem;
+
+    }
+}

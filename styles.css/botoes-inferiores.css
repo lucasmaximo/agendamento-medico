@@ -12,6 +12,7 @@
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(72, 148, 255, 0.5);
     z-index: 2;
+    border: none;
 }
 .rodape__mais__botao.mais:active {
     background-color: var(--cor-cinza-escuro);
@@ -22,6 +23,22 @@
     background-image: url(../img/maisicone.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+.nova__consulta {
+    position: fixed;
+    background-color: var(--cor-branca);
+    color: var(--cor-cinza-escuro);
+    border-radius: 1rem;
+    padding: 0.4rem;
+    border: none;
+}
+.nova__consulta.local {
+    bottom: 15.25rem;
+    right: 6rem;
+}
+.nova__consulta.remoto {
+    bottom: 10.75rem;
+    right: 6rem;
 }
 .rodape__mais__botao.local {
     bottom: 10rem;
@@ -36,19 +53,4 @@
     background-image: url(../img/pinfabiconee.png);
     background-repeat: no-repeat;
     background-position: center;
-}
-.nova__consulta {
-    position: fixed;
-    background-color: var(--cor-branca);
-    color: var(--cor-cinza-escuro);
-    border-radius: 1rem;
-    padding: 0.4rem;
-}
-.nova__consulta.local {
-    bottom: 15.25rem;
-    right: 6rem;
-}
-.nova__consulta.remoto {
-    bottom: 10.75rem;
-    right: 6rem;
 }

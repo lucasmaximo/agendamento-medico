@@ -15,9 +15,15 @@
     --cor-azul: #4894FF;
     --fonte-principal: "Montserrat", sans-serif;
 }
-body {
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+html, body {
     margin: 0;
     padding: 0;
+}
+body {
     background-color: var(--cor-fundo);
     font-family: var(--fonte-principal);
 }

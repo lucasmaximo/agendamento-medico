@@ -1,5 +1,5 @@
 .consultas {
-    padding: 1.5rem 1.5rem;
+    padding: 3%;
 }
 .lista {
     margin-bottom: 1rem;
@@ -97,4 +97,24 @@
     color: var(--cor-branca);
     border: none;
     width: 100%;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 650px) {
+    .lista__itens {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1.5rem;
+    }
+    .lista__itens__item {
+        width: calc(50% - 0.75rem);
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .lista__itens__item {
+        width: calc(33% - 0.75rem);
+    }
 }
