@@ -1,0 +1,94 @@
+.menu__nova-consulta,
+.consulta__cadastro {
+    display: none;
+}
+
+@media screen and (min-width: 1500px) {
+    .menu__nova-consulta {
+        display: none;
+    }
+    .menu__nova-consulta:checked ~ .consulta__cadastro {
+        display: block;
+    }
+    .link__cadastro {
+        display: block;
+        position: fixed;
+        z-index: 2;
+        top: 11rem;
+        left: 1rem;
+        padding: 1rem;
+        width: auto;
+        height: auto;
+        border-radius: 0.5rem;
+        border: none;
+        background-color: var(--cor-azul);
+        font-size: 0.825rem;
+        font-weight: 700;
+        color: var(--cor-branca);
+        cursor: pointer;
+    }
+    .link__cadastro:hover,
+    .link__cadastro:active {
+        background-color: var(--cor-azul-alternativo);
+    }
+    .consulta__cadastro {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 6rem 15rem;
+        background-color: rgba(0, 0, 0, 0.5); /* Cor escura com 50% de opacidade */
+        display: none; /* Inicia oculto */
+        pointer-events: none; /* Permite clicar nos elementos abaixo */
+        z-index: 1;
+    }
+    .cadastro__consulta {
+        position: relative;
+        background-color: var(--cor-branca-variada);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+        border-radius: 1rem;
+        color: var(--cor-cinza-escuro);
+    }
+    .cadastro__consulta__campo {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .consulta__input {
+        border-radius: 0.5rem;
+        width: auto;
+        height: 3.5rem;
+        padding: 0 1rem;
+        border: 0.0625rem solid var(--cor-cinza-escuro);
+        pointer-events: auto;
+        font-family: var(--fonte-principal);
+        font-weight: 500;
+        color: var(--cor-cinza-escuro);
+    }
+    .consulta__input::placeholder {
+        color: var(--cor-cinza-claro);
+    }
+    .consulta__input.textarea {
+        padding: 0.5rem 1rem;
+        font-weight: 500;
+        color: var(--cor-cinza-escuro);
+    }
+    .botao__salvar {
+        background-color: var(--cor-azul);
+        color: var(--cor-branca);
+        border: none;
+        text-align: center;
+        font-weight:700;
+        padding: 1rem;
+        border-radius: 0.5rem;
+    }
+}

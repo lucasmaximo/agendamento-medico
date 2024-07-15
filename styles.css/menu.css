@@ -24,6 +24,9 @@
 .menu__link.link-cinza {
     color: var(--cor-cinza-claro);
 }
+.menu__link.link__cadastro {
+    display: none;
+}
 .inverse {
     filter: invert(1);
 }
@@ -45,6 +48,10 @@
 /* media queries */
 
 @media screen and (min-width: 1500px) {
+    .menu__conteudo.menu__mais,
+    .menu__conteudo.menu__mais-label {
+        display: none;
+    }
     .menu__links {
         position: fixed;
         top: 0;
@@ -56,7 +63,7 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        padding: 2rem 0 0 1rem;
+        padding: 2rem 1rem 0 1rem;
         gap: 1rem;
         border-right: 0.0625rem solid var(--cor-cinza-claro);
         border-top-left-radius: 0;
@@ -80,5 +87,4 @@
     .menu__link.link-cinza:active {
         color: var(--cor-cinza-escuro);
     }
-
 }

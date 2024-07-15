@@ -3,6 +3,7 @@
 @import url('consultas.css');
 @import url('menu.css');
 @import url('botoes-inferiores.css');
+@import url('consulta-cadastro.css');
 
 :root {
     --cor-fundo: #F9F7FE;
@@ -13,6 +14,7 @@
     --cor-cinza-escuro: #464646;
     --cor-laranja: #FFB050;
     --cor-azul: #4894FF;
+    --cor-azul-alternativo: #4373DC;
     --fonte-principal: "Montserrat", sans-serif;
 }
 * {

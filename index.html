@@ -216,9 +216,9 @@
             </div>
         </section>
         <section class="menu">
-            <div>
+            <div class="menu__conteudo">
                 <input class="menu__mais" id="mais" type="checkbox">
-                <label for="mais">
+                <label class="menu__mais-label" for="mais">
                     <span class="menu__mais__botao mais"></span>
                 </label>
                 <div class="menu__links">
@@ -244,6 +244,41 @@
                     <button class="menu__mais__botao local"></button>
                     <button class="nova__consulta remoto"> Nova consulta por vídeo</button>
                     <button class="menu__mais__botao remoto"></button>
+                </div>
+                <input class="menu__nova-consulta" id="consulta" type="checkbox">
+                <label for="consulta">
+                    <span class="link__cadastro">Nova consulta</span>
+                </label>
+                <div class="consulta__cadastro">
+                    <form class="cadastro__consulta">
+                        <div class="cadastro__consulta__campo">
+                            <label for="nome" class="consulta__campo">Nome</label>
+                            <input class="consulta__input" type="text" name="nome" id="nome" placeholder="Nome">
+                        </div>
+                        <div class="cadastro__consulta__campo">
+                            <label for="tipo-consulta"> Tipo de consulta</label>
+                            <select class="consulta__input" name="tipo-consulta" id="tipo-consulta">
+                                <option value="">Selecione uma opção</option>
+                                <option value="local">Local (casa do paciente)</option>
+                                <option value="remoto">Remoto (por vídeo)</option>
+                            </select>
+                        </div>
+                        <div class="cadastro__consulta__campo">
+                            <label for="data">Data da consulta</label>
+                            <input class="consulta__input" type="date" name="data" id="data">
+                        </div>
+                        <div class="cadastro__consulta__campo">
+                            <label for="data">Hora da consulta</label>
+                            <input class="consulta__input" type="time" name="hora" id="hora">
+                        </div>
+                        <div class="cadastro__consulta__campo">
+                            <label for="data">Observações</label>
+                            <textarea class="consulta__input textarea" name="observacoes" id="observacoes" placeholder="Observações"></textarea>
+                        </div>
+                        <div class="cadastro__consulta__campo botao__salvar">
+                            Salvar
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
