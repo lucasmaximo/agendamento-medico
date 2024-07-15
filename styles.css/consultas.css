@@ -117,4 +117,7 @@
     .lista__itens__item {
         width: calc(33% - 0.75rem);
     }
+    .consultas {
+        padding-left: 12.5vw;
+    }
 }

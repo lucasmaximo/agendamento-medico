@@ -1,10 +1,10 @@
-.rodape__mais {
+.menu__mais {
     position: fixed;
     bottom: 9rem;
     right: 2.75rem;
     visibility: hidden;
 }
-.rodape__mais__botao {
+.menu__mais__botao {
     position: fixed;
     width: 3.5rem;
     height: 3.5rem;
@@ -14,10 +14,10 @@
     z-index: 2;
     border: none;
 }
-.rodape__mais__botao.mais:active {
+.menu__mais__botao.mais:active {
     background-color: var(--cor-cinza-escuro);
 }
-.rodape__mais__botao.mais {
+.menu__mais__botao.mais {
     bottom: 5.5rem;
     right: 1.5rem;
     background-image: url(../img/maisicone.png);
@@ -40,17 +40,36 @@
     bottom: 10.75rem;
     right: 6rem;
 }
-.rodape__mais__botao.local {
+.menu__mais__botao.local {
     bottom: 10rem;
     right: 1.5rem;
     background-image: url(../img/Camerafab.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-.rodape__mais__botao.remoto {
+.menu__mais__botao.remoto {
     bottom: 14.5rem;
     right: 1.5rem;
     background-image: url(../img/pinfabiconee.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+/*media queries */
+@media screen and (min-width: 1500px) {
+    .menu__mais__botao.mais {
+        bottom: 1.5rem;
+    }
+    .menu__mais__botao.local {
+        bottom: 6rem;
+    }
+    .menu__mais__botao.remoto {
+        bottom: 10.5rem;
+    }
+    .nova__consulta.local {
+        bottom: 11rem;
+    }
+    .nova__consulta.remoto {
+        bottom: 6.5rem;
+    }
 }

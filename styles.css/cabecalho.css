@@ -25,6 +25,9 @@
 
 /* Media queries */
 @media screen and (min-width: 1500px){
+    .cabecalho {
+        padding-left: 11vw;
+    }
     .cabecalho__foto {
     width: 7rem;
     }
